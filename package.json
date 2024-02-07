@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "fastify": "^4.26.0",
+    "prisma": "^5.8.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  },
+  "name": "polls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "undici-types": "^5.26.5"
+  },
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
